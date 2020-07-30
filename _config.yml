@@ -1,7 +1,7 @@
 # --- Basic options --- #
 
 # Name of website
-title: ilEnzio's website
+title: Erle's website
 
 # Short description of your site
 description: Data Science Portfolio Page
@@ -13,10 +13,10 @@ author: Erle R. Granger II
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "google.com"
+ # Resources:
+ #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+ #   - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://ilenzio.github.io/"
 
 # --- Logo --- #
 
