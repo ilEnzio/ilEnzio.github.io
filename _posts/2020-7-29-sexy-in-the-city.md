@@ -12,7 +12,7 @@ tags: [datascience, photography, boudoir]
 
   For this project I was able to source data from the most successful boudoir photography studio in Northeast Florida - a little mom-and-pop shop called [Diamonds and Desire Boudoir Photography](https://www.diamondsanddesire.com/). To put the success of this two person operation in context, the nation wide average hourly wage for professional photography according to ZipRecruiter as of July 20, 2020 was $21/hour, while the average for northeast florida was $19/hour.   However D&D Photography averages $80/man-hour.  
 
-**Chart comparing average hourly.**
+![Chart comparing photog average hourly wage](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_chart_average_hourly_wage_comparison.png)
 
 
 Although the business had been in operation for over 10 years, and the studio did have other sources of income(other genres of photography, studio equipment rentals, etc), the data set I was able to source amounted to gross sales totaling a little less than a quarter of a million dollars over a 6 year period. With that said, the goal of the project was to give 3 data driven, actionable insights, based on an anatomy of the specific business model of Diamonds and Desire. That business model anatomy was comprised of: Preshoot Consultation(Booking the client), Photoshoot (executing the service), and Sales Sessions.
@@ -23,7 +23,8 @@ Let’s begin with insight relevant to the Preshoot consultation as this grants 
 ### "Hmm! I like my …” - anonymous client reaction
 As for insight regarding the second facet of the business, the actual photoshoot, there was a particular feature extremely relevant to service execution and general success of the business. The “Favorite” variable was defined as which body part the client was most interested in highlighting or having exceptional photographs of. So it follows that the Favorite feature revealed what most clients expect a boudoir photographer to be good at shooting. In contrast, while a family photographer would be expected to deliver solid group shots - relying on skill at herding and staging people, a succesful wedding photographer might develop skill at recognizing or staging beautiful moments, a headshot specialist might gather an arsenal of corny jokes. But in boudoir photography, the data shows, that among clients that have a preference, the expectation by an almost two to one margin is for exceptional shots of… the booty.
 
-Chart of Favorite values counts
+![Chart of Favorite values counts](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_chart_top_ten_favorites.png)
+
 
 To thrive one must cultivate an appreciation of the booty, in all sizes and shapes - the right wardrobe and posing for the booty, the right angle and lens for the booty. The bottom line… your corny jokes aren’t going to help, because if you’re going to meet client expectations, it’s literally your job to present the booty in it’s best light.
 
@@ -34,11 +35,11 @@ Chart of Zip code vs Sales Total
 
 Even when we examine the age of the clients and sales records there is still no obvious correlation. All age ranges tend toward the same mean sales total.
 
-Chart of Age Range vs Sales Total
+![Box Plot of Age Range vs Sales Total](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/boxplot_age_range_v_sales.png)
 
 These were disappointing results as they could have been exploited via marketing. The quest for the elusive highly correlated feature-pair seemed lost, until we examined one innocuous variable: “Hair.” This feature was simply a record of whether the photographer was to schedule a professional hairstylist on the day of the shoot. (Professional make up artist services were included with every shoot.) The distribution of make-up only clients vs those who chose to pay an additional fee for professional hair styling is illustrated below:
 
-Pie chart Make-up only vs Hair and Make-up
+![Pie chart Make-up only vs Hair and Make-up](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/pie_chart_makeup_v_hair.png)
 
 ### Hair Love
 Surprisingly, when compare to each other the average sales total for a client who opted for a hair stylist was nearly $100 more than clients who only received professional makeup. That is an 11% increase in sales at no expense to the business! So, clients who had already spent additional money for the service went on to spend even more.
