@@ -43,7 +43,7 @@ Pie chart Make-up only vs Hair and Make-up
 ### Hair Love
 Surprisingly, when compare to each other the average sales total for a client who opted for a hair stylist was nearly $100 more than clients who only received professional makeup. That is an 11% increase in sales at no expense to the business! So, clients who had already spent additional money for the service went on to spend even more.
 
-![Chart of Make-up only vs Hair and Make-up mean sales](github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_sales_mu_v_hair.png)
+![Chart of Make-up only vs Hair and Make-up mean sales](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_sales_mu_v_hair.png)
 
 But the most starling consequence of this discovery was yet to come. It turns out that since professional hair service takes about 1 hour of the photoshoot time, that is time that the photographer is free to do other things, be it book clients and administrative tasks, or pursue leisure. In addition, the amount of photos taking during the shoot are a factor of the time spent shooting. Thus one hour less photos taken reduce the post processing workload and time. So, where as a shoot with make-up only, may take 9 hours (1 consult, 3 hour shoot, 4 hours post, 1 hour sales) and result in an average sale of $711 or \$79/hour. A shoot with make up and professional hair styling will only take 7 hours (1 consult, 2 hour shoot, 3 hours post, 1 hours sales) and result in an average sale of \$803 or \$114/hour! An increase of 35 hour! *
 
