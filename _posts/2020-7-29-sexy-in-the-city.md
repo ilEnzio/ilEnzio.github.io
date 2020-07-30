@@ -10,7 +10,7 @@ tags: [datascience, photography, boudoir]
 
   For this project I was able to source data from the most successful boudoir photography studio in Northeast Florida - a little mom-and-pop shop called [Diamonds and Desire Boudoir Photography](https://www.diamondsanddesire.com/). To put the success of this two person operation in context, the nation wide average hourly wage for professional photography according to ZipRecruiter as of July 20, 2020 was **$21/hour**, while the average for northeast florida was **$19/hour**.  However D&D Photography averages **_$82/man-hour_**.  
   
-test 9
+test 10
 ![Chart comparing photog average hourly wage](https://ilenzio.github.io/assets/img/bar_chart_average_hourly_wage_comparison.png)
 
 
@@ -43,12 +43,12 @@ Even when we examine the age of the clients and sales records there is still no 
 
 These were disappointing results as they could have been exploited via marketing. The quest for the elusive highly correlated feature-pair seemed lost, until we examined one innocuous variable: “Hair.” This feature was simply a record of whether the photographer was to schedule a professional hairstylist on the day of the shoot. (Professional make up artist services were included with every shoot.) The distribution of make-up only clients vs those who chose to pay an additional fee for professional hair styling is illustrated below:
 
-![Pie chart Make-up only vs Hair and Make-up](https://github.com/ilenzio/Sexy_In_The_City/blob/master/pie_chart_makeup_v_hair.png)
+![Pie chart Make-up only vs Hair and Make-up](https://ilenzio.github.io/assets/img/pie_chart_makeup_v_hair.png)
 
 ### Hair Love
 Surprisingly, when compare to each other the average sales total for a client who opted for a hair stylist was nearly $100 more than clients who only received professional makeup. That is an 11% increase in sales at no expense to the business! So, clients who had already spent additional money for the service went on to spend even more.
 
-![Chart of Make-up only vs Hair and Make-up mean sales](https://github.com/ilenzio/Sexy_In_The_City/blob/master/bar_sales_mu_v_hair.png)
+![Chart of Make-up only vs Hair and Make-up mean sales](https://ilenzio.github.io/assets/img/bar_sales_mu_v_hair.png)
 
 But the most starling consequence of this discovery was yet to come. It turns out that since professional hair service takes about 1 hour of the photoshoot time, that is time that the photographer is free to do other things, be it book clients and administrative tasks, or pursue leisure. In addition, the amount of photos taking during the shoot are a factor of the time spent shooting. Thus one hour less photos taken reduce the post processing workload and time. So, where as a shoot with make-up only, may take 9 hours (1 consult, 3 hour shoot, 4 hours post, 1 hour sales) and result in an average sale of $711 or \$79/hour. A shoot with make up and professional hair styling will only take 7 hours (1 consult, 2 hour shoot, 3 hours post, 1 hours sales) and result in an average sale of \$803 or \$114/hour! Therefore a everytime you can convince a client to add professional hair styling to the shoot you increae your expected value by \$35 an hour! *  (With the icing on the cake being increased morale for the team because the stylist more than doubles their income for the day.)
 
