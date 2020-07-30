@@ -10,8 +10,8 @@ tags: [datascience, photography, boudoir]
 
   For this project I was able to source data from the most successful boudoir photography studio in Northeast Florida - a little mom-and-pop shop called [Diamonds and Desire Boudoir Photography](https://www.diamondsanddesire.com/). To put the success of this two person operation in context, the nation wide average hourly wage for professional photography according to ZipRecruiter as of July 20, 2020 was **$21/hour**, while the average for northeast florida was **$19/hour**.  However D&D Photography averages **_$82/man-hour_**.  
   
-test 3
-![Chart comparing photog average hourly wage](https://ilenzio.github.io/assets/img/bar_chart_top_ten_favorites.png)
+test 4
+![Chart comparing photog average hourly wage](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_chart_average_hourly_wage_comparison.png)
 
 
 Although the business had been in operation for over 10 years, and the studio did have other sources of income(other genres of photography, studio equipment rentals, etc), the data set I was able to source amounted to gross sales totaling a little less than a quarter of a million dollars over a 6 year period. With that said, the goal of the project was to give 3 data driven, actionable insights, based on an anatomy of the specific business model of Diamonds and Desire. That business model anatomy consisted of: Preshoot Consultation(Booking the client), Photoshoot and Post Processing (executing the service), and Sales Sessions.
@@ -28,7 +28,7 @@ Let’s begin with insight relevant to the Preshoot consultation as this grants 
 ### "Hmm! I like my …” - anonymous client
 As for insight regarding the second facet of the business, the actual photoshoot, there was one particular feature extremely relevant to service execution and the general success of the business. The “Favorite” variable was defined as which body part the client was most interested in highlighting or having exceptional photographs of. So it follows that the Favorite feature revealed what most clients expect a boudoir photographer to be good at shooting. Thus, while a family photographer would be expected to deliver solid group shots - relying on skill at herding and staging people, a succesful wedding photographer might develop skill at recognizing or staging beautiful moments, and a headshot specialist might gather an arsenal of corny jokes. But in boudoir photography, the data shows, that among clients that have a preference, the expectation by an almost two to one margin is for exceptional shots of… the booty.
 
-![Chart of Favorite values counts](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_chart_average_hourly_wage_comparison.png)
+![Chart of Favorite values counts](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_chart_top_ten_favorites.png)
 
 To thrive one must cultivate an appreciation of the booty, in all sizes and shapes - the right wardrobe and posing for the booty, the right angle and lens for the booty. The bottom line… your corny jokes aren’t going to help, because if you’re going to meet client expectations, it’s literally your job to present the booty in it’s best light.
 
