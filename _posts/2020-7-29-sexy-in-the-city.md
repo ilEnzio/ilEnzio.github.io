@@ -10,7 +10,7 @@ tags: [datascience, photography, boudoir]
 
   For this project I was able to source data from the most successful boudoir photography studio in Northeast Florida - a little mom-and-pop shop called [Diamonds and Desire Boudoir Photography](https://www.diamondsanddesire.com/). To put the success of this two person operation in context, the nation wide average hourly wage for professional photography according to ZipRecruiter as of July 20, 2020 was **$21/hour**, while the average for northeast florida was **$19/hour**.  However D&D Photography averages **_$82/man-hour_**.  
   
-test 11
+
 ![Chart comparing photog average hourly wage](https://ilenzio.github.io/assets/img/bar_chart_average_hourly_wage_comparison.png)
 
 
