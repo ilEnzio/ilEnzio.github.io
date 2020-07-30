@@ -24,7 +24,7 @@ Let’s begin with insight relevant to the Preshoot consultation as this grants 
 
 
 
-### "Hmm! I like my …” - anonymous client reaction
+### "Hmm! I like my …” - anonymous client
 As for insight regarding the second facet of the business, the actual photoshoot, there was one particular feature extremely relevant to service execution and the general success of the business. The “Favorite” variable was defined as which body part the client was most interested in highlighting or having exceptional photographs of. So it follows that the Favorite feature revealed what most clients expect a boudoir photographer to be good at shooting. Thus, while a family photographer would be expected to deliver solid group shots - relying on skill at herding and staging people, a succesful wedding photographer might develop skill at recognizing or staging beautiful moments, and a headshot specialist might gather an arsenal of corny jokes. But in boudoir photography, the data shows, that among clients that have a preference, the expectation by an almost two to one margin is for exceptional shots of… the booty.
 
 ![Chart of Favorite values counts](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_chart_top_ten_favorites.png)
