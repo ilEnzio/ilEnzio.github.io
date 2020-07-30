@@ -60,7 +60,8 @@ In summary, this project shows that even a “mom-and-pop shop” small business
 \* A two sample TTest was conducted with the following results: Assuming a 95% confidence level - Based on a tstat of -1.58 and pvalue of approximately .11499, I FAIL to reject the null hypothesis that clients who get make-up only spend the same amount on average as clients who get professional hair and make-up.
 
 
-#####Links:
+##### Links:
+
 [Temp Notebook link](https://colab.research.google.com/drive/1HvEZxyCJy3YvJYm4mUvO5qGwDHKAo2oR?usp=sharing)
 
 [Project GitHub](https://github.com/ilEnzio/Sexy_In_The_City)
