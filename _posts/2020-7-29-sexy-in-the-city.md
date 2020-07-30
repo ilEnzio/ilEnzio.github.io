@@ -12,7 +12,7 @@ tags: [datascience, photography, boudoir]
 
   For this project I was able to source data from the most successful boudoir photography studio in Northeast Florida - a little mom-and-pop shop called [Diamonds and Desire Boudoir Photography](https://www.diamondsanddesire.com/). To put the success of this two person operation in context, the nation wide average hourly wage for professional photography according to ZipRecruiter as of July 20, 2020 was $21/hour, while the average for northeast florida was $19/hour.   However D&D Photography averages $80/man-hour.  
 
-![Chart comparing photog average hourly wage](https://github.com/ilEnzio/Sexy_In_The_City/blob/master/bar_chart_average_hourly_wage_comparison.png)
+![Chart comparing photog average hourly wage](https://github.com/ilEnzio/ilEnzio.github.io/blob/master/assets/img/bar_chart_average_hourly_wage_comparison.png)
 
 
 Although the business had been in operation for over 10 years, and the studio did have other sources of income(other genres of photography, studio equipment rentals, etc), the data set I was able to source amounted to gross sales totaling a little less than a quarter of a million dollars over a 6 year period. With that said, the goal of the project was to give 3 data driven, actionable insights, based on an anatomy of the specific business model of Diamonds and Desire. That business model anatomy was comprised of: Preshoot Consultation(Booking the client), Photoshoot (executing the service), and Sales Sessions.
