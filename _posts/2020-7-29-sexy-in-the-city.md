@@ -10,7 +10,7 @@ tags: [datascience, photography, boudoir]
 
   For this project I was able to source data from the most successful boudoir photography studio in Northeast Florida - a little mom-and-pop shop called [Diamonds and Desire Boudoir Photography](https://www.diamondsanddesire.com/). To put the success of this two person operation in context, the nation wide average hourly wage for professional photography according to ZipRecruiter as of July 20, 2020 was **$21/hour**, while the average for northeast florida was **$19/hour**.  However D&D Photography averages **_$82/man-hour_**.  
   
-test 8
+test 9
 ![Chart comparing photog average hourly wage](https://ilenzio.github.io/assets/img/bar_chart_average_hourly_wage_comparison.png)
 
 
@@ -39,7 +39,7 @@ Now it’s time to get to, dare I say, the sexist feature in the data set: Sales
 
 Even when we examine the age of the clients and sales records there is still no obvious correlation. All age ranges tend toward the same mean sales total.
 
-![Box Plot of Age Range vs Sales Total](https://github.com/ilenzio/Sexy_In_The_City/blob/master/boxplot_age_range_v_sales.png)
+![Box Plot of Age Range vs Sales Total](https://github.com/ilEnzio/assets/img/boxplot_age_range_v_sales.png?raw=true)
 
 These were disappointing results as they could have been exploited via marketing. The quest for the elusive highly correlated feature-pair seemed lost, until we examined one innocuous variable: “Hair.” This feature was simply a record of whether the photographer was to schedule a professional hairstylist on the day of the shoot. (Professional make up artist services were included with every shoot.) The distribution of make-up only clients vs those who chose to pay an additional fee for professional hair styling is illustrated below:
 
