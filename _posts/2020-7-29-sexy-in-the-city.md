@@ -35,7 +35,7 @@ To thrive one must cultivate an appreciation of the booty, in all sizes and shap
 ### Too Sexy for my Zip Code?
 Now it’s time to get to, dare I say, the sexist feature in the data set: Sales Total. Ideally we’d be able to gather from the data which other feature correlates most closely with a high sales total. Although there’s a common tendency to be seduced by the notion of wealth and zip code tracking closely, our data did not support this. In this business domain, zip code does not correlate with a higher sales mean.
 
-**Chart of Zip code vs Sales Total**
+![Chart of Zip code vs Sales Total](https://ilenzio.github.io/assets/img/zip_code_vs_total_sales.png)
 
 Even when we examine the age of the clients and sales records there is still no obvious correlation. All age ranges tend toward the same mean sales total.
 
