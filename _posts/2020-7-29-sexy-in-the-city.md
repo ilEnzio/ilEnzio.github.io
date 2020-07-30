@@ -52,9 +52,17 @@ Surprisingly, when compare to each other the average sales total for a client wh
 
 But the most starling consequence of this discovery was yet to come. It turns out that since professional hair service takes about 1 hour of the photoshoot time, that is time that the photographer is free to do other things, be it book clients and administrative tasks, or pursue leisure. In addition, the amount of photos taking during the shoot are a factor of the time spent shooting. Thus one hour less photos taken reduce the post processing workload and time. So, where as a shoot with make-up only, may take 9 hours (1 consult, 3 hour shoot, 4 hours post, 1 hour sales) and result in an average sale of $711 or \$79/hour. A shoot with make up and professional hair styling will only take 7 hours (1 consult, 2 hour shoot, 3 hours post, 1 hours sales) and result in an average sale of \$803 or \$114/hour! Therefore a everytime you can convince a client to add professional hair styling to the shoot you increase your expected value by \$35 an hour! *  (With the icing on the cake being increased morale for the team because the stylist more than doubles their income for the day.)
 
-**Shoot EV comparison Table**
+
 
 ### Conclusion:
 In summary, this project shows that even a “mom-and-pop shop” small business can gain valuable insights across all aspects their business domain through data analysis. By nature these insights are specific and revelvant to a particular business model and positively effect the bottom line.
 
 \* A two sample TTest was conducted with the following results: Assuming a 95% confidence level - Based on a tstat of -1.58 and pvalue of approximately .11499, I FAIL to reject the null hypothesis that clients who get make-up only spend the same amount on average as clients who get professional hair and make-up.
+
+[Temp Notebook link](https://colab.research.google.com/drive/1HvEZxyCJy3YvJYm4mUvO5qGwDHKAo2oR?usp=sharing)
+[Project GitHub](https://github.com/ilEnzio/Sexy_In_The_City)
+[Portfolio](https://ilenzio.github.io/)
+
+[Diamonds & Desire Boudoir Photography](https://www.diamondsanddesire.com/)
+[ZipRecruiter Photographer Salary Reference](https://www.ziprecruiter.com/Salaries/How-Much-Does-a-Professional-Photographer-Make-an-Hour)
+
