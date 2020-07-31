@@ -52,7 +52,7 @@ This feature was simply a record of whether the photographer was to schedule a p
 ### Hair Love
 Surprisingly, when compare to each other the average sales total for a client who opted for a hair stylist was **nearly $100 more** than clients who only received professional makeup. That is an **11% increase in sales** at no expense to the business! So, clients who had *already spent additional money* for the service went on to spend even more.
 
-![Chart of Make-up only vs Hair and Make-up mean sales](https://ilenzio.github.io/assets/img/bar_sales_mu_v_hair.png)
+![Chart of Make-up only vs Hair and Make-up expectation value](https://ilenzio.github.io/assets/img/ev_sales_mu_v_hair.png)
 
 But the most starling consequence of this discovery was yet to come. Ironically, the photographer works fewer hours to service a client that gets more services.  Hairstyling takes up approximately 1hr of the shoot and results in less photos to process, increasing the expected value of the shoot by $35/hour!
 
