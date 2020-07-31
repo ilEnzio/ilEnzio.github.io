@@ -18,12 +18,7 @@ Although the business had been in operation for over 10 years, and the studio di
 
 ### Delectable Data left on the table
 Let’s begin with insight relevant to the Preshoot consultation as this grants further context into the domain in general. The data for the project was compiled from records of the consultations and records of sales. So while it does include features like booking date, date of birth, zip code, session fee, and sales total, etc. There were other variables that were almost always revealed due to the nature of the consultation, but not recorded with the proper nuance or consistency: Occasion of shoot( anniversary, birthday, father’s day, valentine’s day, x-mas, or perhaps no occasion!). Being located in a navy town, many of the clients were in the military, or military spouses, but this was not consistently recorded. Ethnicity and gender, were also not recorded with enough nuance to be useful. From the sales information, the sales total and product quantity/type was documented, but the type of photograph was not categorized in the sales data with enough nuance. Were the photographs close up, wide shots, black and white, color, high key, or low key? These are all metrics which could affect the businesses marketing decision and perhaps shooting practices. And once again this is data that was collected and available, but just not suitably recorded. Therefore I would recommend adding these to the variables recorded going forward.
-  * Occasion for photoshoot
-  * Gender + Ethnic Demographics
-  * Military or Military spouse
-  * Style of Photos Purchases
-
-
+ 
 
 ### "Hmm! I like my …” - anonymous client
 As for insight regarding the second facet of the business, the actual photoshoot, there was one particular feature extremely relevant to service execution and the general success of the business. The “Favorite” variable was defined as which body part the client was most interested in highlighting or having exceptional photographs of. So it follows that the Favorite feature revealed what most clients expect a boudoir photographer to be good at shooting. Thus, while a family photographer would be expected to deliver solid group shots - relying on skill at herding and staging people, a succesful wedding photographer might develop skill at recognizing or staging beautiful moments, and a headshot specialist might gather an arsenal of corny jokes. But in boudoir photography, the data shows, that among clients that have a preference, the expectation by an almost two to one margin is for exceptional shots of… the booty.
