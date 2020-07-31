@@ -63,7 +63,7 @@ Surprisingly, when compared to each other the average sales total for a client w
 But the most starling consequence of this discovery was yet to come. Ironically, the photographer works fewer hours to service a client that gets more services.  Hairstyling takes up approximately 1hr of the shoot and results in less photos to process, increasing the expected value of the shoot by $35/hour! \*
 
 
-### Conclusion:
+### Boudoir Bottom Line:
 In summary, this project shows that even a “mom-and-pop” small business can gain valuable insights across all aspects their business domain through data analysis. By nature these insights are specific and revelvant to a particular business model and positively effect the bottom line.
 
 \* A two sample **TTest** was conducted with the following results: Assuming a **95% confidence level** - Based on a **tstat of -1.58** and **pvalue of approximately .11499**, I **FAIL to reject the null hypothesis** that clients who get make-up only spend the same amount on average as clients who get professional hair and make-up.
