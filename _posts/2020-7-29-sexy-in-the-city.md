@@ -4,6 +4,7 @@ title: Sexy in the City
 subtitle: Can data driven analysis help you stop worrying and increase your hourly wage by $35 while photographing people in undies?
 
 cover-img: /assets/img/DSC_6392-Edit-Edit.jpg
+share-img: /assets/img/DSC_6392-Edit-Edit.jpg
 
 tags: [datascience, photography, boudoir, small_business, jacksonville, florida]
 ---
