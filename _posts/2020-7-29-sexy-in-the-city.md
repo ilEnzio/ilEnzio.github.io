@@ -54,7 +54,7 @@ Surprisingly, when compared to each other the average sales total for a client w
 
 ![Chart of Make-up only vs Hair and Make-up expectation value](https://ilenzio.github.io/assets/img/ev_sales_mu_v_hair.png)
 
-But the most starling consequence of this discovery was yet to come. Ironically, the photographer works fewer hours to service a client that gets more services.  Hairstyling takes up approximately 1hr of the shoot and results in less photos to process, increasing the expected value of the shoot by $35/hour!
+But the most starling consequence of this discovery was yet to come. Ironically, the photographer works fewer hours to service a client that gets more services.  Hairstyling takes up approximately 1hr of the shoot and results in less photos to process, increasing the expected value of the shoot by $35/hour!\*
 
 
 ### Conclusion:
