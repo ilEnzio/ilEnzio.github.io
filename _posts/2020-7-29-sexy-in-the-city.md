@@ -10,7 +10,7 @@ tags: [datascience, photography, boudoir, small_business, jacksonville, florida]
 ---
 
 ### A Saucy data source
-With the rise of social media and cell-phones it’s safe to say anyone can consider themselves to be an accomplished amateur photographer.  But while the hobbyist can point and shoot indiscriminately, in order to earn a living creating images, the professional must be discerning about what they capture - and thus the various genres of professional photography arise.  
+With the rise of social media and cell-phones it’s safe to say anyone can consider themselves an accomplished amateur photographer.  But while the hobbyist can point and shoot indiscriminately, in order to earn a living creating images, the professional must be discerning about what they capture - and thus the various genres of professional photography arise.  
 
 Parsing the topic even further, if your metric is gross income, all photographic genres are not created equal. Which brings us to the subject of our exploration - a relatively obscure but potentially lucrative niche genre of photography, called Intimate Portraiture, or more commonly known as Boudoir Photography.   If photography studios were restaurant’s, think of the boudoir photo studio as the equivalent of a restaurant that only serves lunch or breakfast…in bed.  
 
@@ -20,7 +20,7 @@ For this project I was able to source data from the most successful boudoir phot
 ![Chart comparing photog average hourly wage](https://ilenzio.github.io/assets/img/bar_chart_average_hourly_wage_comparison.png)
 
 
-Since the data set essentially represented concrete sales data totaling a little less than a quarter of a million dollars over a 6 year period, it’s appropriate that the project goal be equally concrete:  Give three data centric, actionable insights, parallelling specific business model of Diamonds and Desire.  That business model anatomy was comprised of: Pre-shoot Consultation(Booking the client), Photoshoot (executing the service),  and Sales Sessions.
+Since the data set essentially represented concrete sales data totaling a little less than a quarter of a million dollars over a 6 year period, it’s appropriate that the project goal be equally concrete:  Give three data centric, actionable insights, parallelling the specific business model of Diamonds and Desire.  That business model anatomy consisted of: Pre-shoot Consultation(Booking the client), Photoshoot (executing the service),  and Sales Sessions.
 
 ### Data left forlorn...  
 Let’s begin with insight relevant to the **Preshoot Consultation** as this grants further context into the business domain in general. The data for the project was compiled from records of the consultations and records of sales. So while it does include features like booking date, date of birth, zip code, session fee, and sales total, etc. There were other variables that were almost always revealed due to the nature of the consultation, but not recorded with the proper nuance or consistency: Occasion of shoot( anniversary, birthday, father’s day, valentine’s day, x-mas, or perhaps no occasion!). Being located in a navy town, many of the clients were in the military, or military spouses, but this was not consistently recorded. Ethnicity and gender were also not recorded with enough nuance to be useful.  
