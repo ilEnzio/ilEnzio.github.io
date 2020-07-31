@@ -71,7 +71,7 @@ In summary, this project shows that even a “mom-and-pop” small business can 
 
 ##### Links:
 
-[Temp Notebook link](https://colab.research.google.com/drive/1HvEZxyCJy3YvJYm4mUvO5qGwDHKAo2oR?usp=sharing)
+[Colab Notebook link](https://colab.research.google.com/drive/1HvEZxyCJy3YvJYm4mUvO5qGwDHKAo2oR?usp=sharing)
 
 [Project GitHub](https://github.com/ilEnzio/Sexy_In_The_City)
 
