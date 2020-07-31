@@ -25,7 +25,7 @@ Since the data set essentially represented concrete sales data totaling a little
 ### Data left forlorn...  
 Let’s begin with insight relevant to the **Preshoot Consultation** as this grants further context into the business domain in general. The data for the project was compiled from records of the consultations and records of sales. So while it does include features like booking date, date of birth, zip code, session fee, and sales total, etc. There were other variables that were almost always revealed due to the nature of the consultation, but not recorded with the proper nuance or consistency: Occasion of shoot( anniversary, birthday, father’s day, valentine’s day, x-mas, or perhaps no occasion!). Being located in a navy town, many of the clients were in the military, or military spouses, but this was not consistently recorded. Ethnicity and gender were also not recorded with enough nuance to be useful.  
 
-* **Type of Photograph Purchased** (Color vs BW, Close up vs Wide, Hi-Key vs Low Key)
+* **Type of Photograph Purchased** (Color vs BW, Close-up vs Wide, Hi vs Low Key)
 * **Occassion of shoot** (None, Anniversary, V-day, X-mas, etc)  
 * **Gender** (w/ suitable nuance)
 * **Ethnicity** (w/ suitable nuance)
