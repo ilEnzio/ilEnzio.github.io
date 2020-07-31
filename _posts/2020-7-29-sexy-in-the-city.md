@@ -9,6 +9,7 @@ share-img: /assets/img/DSC_6392-Edit-Edit-2.jpg
 tags: [datascience, photography, boudoir, small_business, jacksonville, florida]
 ---
 
+### Saucy data source
 With the rise of social media and cell-phones it’s safe to say anyone can consider themselves to be an accomplished amateur photographer.  But while the hobbyist can point and shoot indiscriminately, in order to earn a living creating images, the professional must be discerning about what they capture - and thus the various genres of professional photography arise.  
 
 Parsing the topic even further, if your metric is gross income, all photographic genres are not created equal. Which brings us to the subject of our exploration - a relatively obscure but potentially lucrative niche genre of photography, called Intimate Portraiture, or more commonly known as Boudoir Photography.   If photography studios were restaurant’s, think of the boudoir photo studio as the equivalent of a restaurant that only serves lunch or breakfast…in bed.  
