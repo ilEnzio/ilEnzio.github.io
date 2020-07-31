@@ -50,7 +50,7 @@ This feature was simply a record of whether the photographer was to schedule a p
 ![Pie chart Make-up only vs Hair and Make-up](https://ilenzio.github.io/assets/img/pie_chart_makeup_v_hair.png)
 
 ### Hair Love
-Surprisingly, when compare to each other the average sales total for a client who opted for a hair stylist was **nearly $100 more** than clients who only received professional makeup. That is an **11% increase in sales** at no expense to the business! So, clients who had *already spent additional money* for the service went on to spend even more.
+Surprisingly, when compared to each other the average sales total for a client who opted for a hair stylist was **nearly $100 more** than clients who only received professional makeup. That is an **11% increase in sales** at no expense to the business! So, clients who had *already spent additional money* for the service went on to spend even more.
 
 ![Chart of Make-up only vs Hair and Make-up expectation value](https://ilenzio.github.io/assets/img/ev_sales_mu_v_hair.png)
 
