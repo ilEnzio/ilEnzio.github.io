@@ -12,7 +12,7 @@ tags: [datascience, twitch, streaming, small_business, games, videogames]
 
 I have a gaming problem.  Not really.  But my girlfriend has a gaming problem , which makes it my problem.  It goes something like this:  My girlfriend is a Twitch affiliate - a part-time professional streamer, and to be sure life isn’t all fun and games when your partner is a for profit gamer.  For Twitch streamers, making ends meet takes the form of viewer subscriptions, tips, and donations - with significant ad revenue only afforded to the elite.   
 
-**Low performer Affilates vs Average Streamer vs Top Affilates/  Revenue/Followers vs StarKells**
+
 ![Bar Chart Monthly Affiliate Wage Comparison](https://ilenzio.github.io/assets/img/bar_chart_twitch_affiliate_average_monthly_wage_comparison.png)
 
 Since most streaming takes place in the evening, what that means for me is a conspicuous lack of quality time.  Thus the competing interests arise:  I want more quality time with my funny little honey,  while she is compelled to grind  - growing her stream and revenue is understandably high priority.  Conventional wisdom assumes having a successful stream takes dedication, passion, and lots of time. But is it worth the grind? Can data analysis and machine learning help us resolve the classic issue: How can we maximise Business Time without sacrificing Bidness time? 
@@ -24,10 +24,12 @@ I attacked the problem by sourcing data from 3 sites - her entire 3 year streami
 To understand the scope of the problem and see what I was up against I immediately engineered two features.  Streak and Activity.  Streak represented how many consecutive days she streamed in order to build her audience.  
 
 **streak line plot**
+![Streamer Streak Line Chart](https://ilenzio.github.io/assets/img/streak_line_chart.png)
 
 As you can see after a year I managed to convince her to start scheduling days off.  Unfortunately I suspected that this might render the **Streak** feature less useful to a machine learning algorithm so I engineered a feature called **Activity**, which represented the percentage of days, in the last 30 days, that she had streamed.  This would indicated if she had kept a consistent schedule with a 30 day period and without penalizing her for non-consecutive days. My hope was that the algorithm could determine any correlation between the consistency and revenue.  
 
 **activity line plot**
+![Streamer Activity Line Chart](https://ilenzio.github.io/assets/img/activity_line_chart.png)
 
 After engineering a few more features including - **Total_Earnings** - all combined revenue, **Player Mode** - whether the games streamed were single player, multiplayer or both - I decided to look at some basic linear correlations
 
