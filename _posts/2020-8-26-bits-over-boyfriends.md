@@ -44,11 +44,9 @@ I had cause for hope when the plot revealed that **Chatters, Chat Messages, and 
 
 Initially I determined that the raw data and target vector indicated a regression task, after all I was trying to predict revenue - a continuous variable - for a stream session.  However, after consideration I decided that framing the solution as classification would be more palatable, and increase relevance for stake holders.  In other words, rather than return a number figure it might be better to return a result that could scale with the relative success of the streamer, indicating whether given conditions would result in an upper percentile revenue session = “worth the grind”, or a lower percentile revenue session = “not worth the grind.”  At any rate there was certainly nothing stopping me from training one of each type of model.  My Baseline metrics were as follows: 
 
-**Regression Baseline Metrics:**
-MAE : $24.54
 
-**Classification Baseline Metrics:**
-Majority Classifier/Accuracy : 33.6%
+![Baseline Metrics Table](https://ilenzio.github.io/assets/img/baseline_metrics_table.png)
+
 
 I decided on a Ridge Regression model and Decision Tree Classifier. I forked my Feature Matrix, and used the appropriate version of the Target Vector to train and fit each model.  After a little tuning our model produced some results...
 
@@ -57,13 +55,13 @@ I decided on a Ridge Regression model and Decision Tree Classifier. I forked my 
 ![Streamer DecisionTreeClassifier Confusion Matrix](https://ilenzio.github.io/assets/img/twitch_tree_classifier_confusion_matrix_chart.png)
 
 ### What Machine Learning has Brought Together, Let No Stream Sunder!
-Both models beat our baseline, but what I really needed to get to the bottom of our Business Question was a look at the model’s permutation importances.   Was the ultimate path to Streamer success just about grinding for endless hours? Could my girlfriend justify increasing her Minutes Streamed over all else?
+Both models beat our baseline, but what I really needed to get to the bottom of our Business Question was a look at the model’s permutation importances.   Was the ultimate path to Streamer success just about grinding for endless hours? Could my girlfriend justify increasing her Minutes Streamed over all else... or Nah?
 
 ![DecisionTreeClassifier Top10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top_ten_bar_chart.png)
 
-Besides the models performance  the most exciting part of the analysis was the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use used each feature in determining a particular prediction. 
+Besides the models performance the most exciting part of the analysis was the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use used each feature in determining a particular prediction. 
 
-**shapley plots**
+
 ![shapley plot example of def worth](https://ilenzio.github.io/assets/img/twitch_tree_classifier_shapley_top15_chart.png)
 
 By the way…So far our best model does ~21% better than the baseline at predicting whether or not a given date will be worth streaming and i really, really, really hope to improve it. 
