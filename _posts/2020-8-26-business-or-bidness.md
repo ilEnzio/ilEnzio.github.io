@@ -8,7 +8,7 @@ subtitle: Do Twitch Streamers have to Sacrifice Quality of Life for Success?
 tags: [datascience, twitch, streaming, small_business, games, videogames]
 ---
 
-### Don't hate the player...?
+### Don't Hate the Player...?
 
 I have a gaming problem.  Not really.  But my girlfriend has a gaming problem , which makes it my problem.  It breaks down like this:  My girlfriend is a Twitch affiliate - a part-time professional streamer - and to be sure life isn’t all fun and games when your partner is a for profit gamer.  In the darwinian Live Streaming ecosystem making ends meet takes the form of viewer subscriptions, tips, and donations - with significant ad revenue only afforded to the elite.   
 
@@ -57,7 +57,7 @@ I decided on a LinearRegression model and DecisionTreeClassifier. I forked my X_
 
 ![Streamer DecisionTreeClassifier Confusion Matrix](https://ilenzio.github.io/assets/img/twitch_tree_classifier_confusion_matrix_chart.png)
 
-### What Machine Learning has brought Together, Let No Stream Sunder!
+### What Machine Learning has Brought Together, Let No Stream Sunder!
 Both models beat our baseline, but what I really needed to get to the bottom of our Business Question was a look at the model’s permutation importances.   Was the ultimate path to Streamer success just about grinding for endless hours? Should could my gf justify increasing her Minutes Streamed over all else?
 
 ![DecisionTreeClassifier Top10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top_ten_bar_chart.png)
