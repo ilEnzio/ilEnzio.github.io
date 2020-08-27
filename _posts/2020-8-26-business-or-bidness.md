@@ -37,6 +37,8 @@ After engineering a few more features including - **Total_Earnings** - all combi
 **possible Total_Earning vs player_mode scatter plot**
 
 **correlation bar plot**
+![Absolute Value Correlation Matrix](https://ilenzio.github.io/assets/img/corr_Matrix_absolute_value_chart.png)
+
 
 I had cause for hope when the plot revealed that Chatters, Chat Messages, and Unique Viewers took the top spots. While **Minutes Streamed was number 7!**  It was time to calculate some baseline metrics build some models!
 
@@ -54,7 +56,8 @@ Majority Classifier/Accuracy
 I selected a LinearRegression model and DecisionTreeClassifier. I forked my X_Matrix, used the appropriate version of the y_target to train and fit each model.
 
 **Validation results**
-**Confusion Matrix** 
+
+![Streamer DecisionTreeClassifier Confusion Matrix](https://ilenzio.github.io/assets/img/twitch_tree_classifier_confusion_matrix_chart.png)
 
 ### What Machine Learning has brought Together, Let no Stream Tear Asunder!
 After a little tuning our model  produced some results, that beat our baseline, but what I really needed to get to the bottom of our Business Question was a look at the model’s permutation importances.  Was the ultimate path to Streamer success just about grinding for endless hours?  
