@@ -36,7 +36,6 @@ After engineering a few more features including - **Total_Earnings** - all combi
 
 **possible Total_Earning vs player_mode scatter plot**
 
-**correlation bar plot**
 ![Absolute Value Correlation Matrix](https://ilenzio.github.io/assets/img/corr_Matrix_absolute_value_chart.png)
 
 
