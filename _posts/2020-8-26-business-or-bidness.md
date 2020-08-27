@@ -21,7 +21,7 @@ Since most streaming takes place in the evening, what that means for me is a con
 ### Build Me Up Buttercup
 
 I attacked the problem by sourcing data from 3 sites - her entire 3 year streaming career analytics directly from [Twitch.com](https://www.twitch.tv/), channel specific revenue data from [Stream Labs](https://streamlabs.com/), and selected game data from [Sullygnome.com](https://sullygnome.com/).   
-To understand the scope of the problem and see what I was up against I immediately engineered two features.  Streak and Activity.  Streak represented how many consecutive days she streamed in order to build her audience.  
+To understand the scope of the problem and gage what I was up against I immediately engineered two features.  Streak and Activity.  Streak represented how many consecutive days she streamed in order to build her audience.  
 
 **streak line plot**
 ![Streamer Streak Line Chart](https://ilenzio.github.io/assets/img/streak_line_chart.png)
@@ -39,11 +39,11 @@ After engineering a few more features including - **Total_Earnings**(all combine
 ![Absolute Value Correlation Matrix](https://ilenzio.github.io/assets/img/corr_Matrix_absolute_value_chart.png)
 
 
-I had cause for hope when the plot revealed that **Chatters, Chat Messages, and Unique Viewers** took the **top 3** spots. While **Minutes Streamed was number 7!**  It was time to calculate some baseline metrics build some models!
+I had cause for hope when the plot revealed that **Chatters, Chat Messages, and Unique Viewers** took the **top 3** spots. In contrast, **Minutes Streamed was number 7!**  It was time to calculate some baseline metrics and build some models!
 
 ### Stuck in the Middle with...Metrics
 
-Initially I determined that the raw data indicated a regression problem, after all I was trying to predict revenue - a continuous variable - for a stream session.  However after consideration I decided that presenting the solution as classification would be more palatable, and increase relevance for stake holders.  In other words, rather than return a number figure it might be better to return a result that could scale with the relative success of the streamer, indicating whether given conditions would result in an upper percentile revenue session = “worth the grind”, or a lower percentile revenue session = “not worth the grind.”  So I'd have one of each type of model.  My Baseline metrics were as follows: 
+Initially I determined that the raw data and target vector indicated a regression problem, after all I was trying to predict revenue - a continuous variable - for a stream session.  However after consideration I decided that presenting the solution as classification would be more palatable, and increase relevance for stake holders.  In other words, rather than return a number figure it might be better to return a result that could scale with the relative success of the streamer, indicating whether given conditions would result in an upper percentile revenue session = “worth the grind”, or a lower percentile revenue session = “not worth the grind.”  At any rate there was certainly nothing stopping me from training one of each type of model.  My Baseline metrics were as follows: 
 
 **Regression Baseline Metrics:
 MAE : $24.54
@@ -51,7 +51,7 @@ MAE : $24.54
 **Classification Baseline Metrics:
 Majority Classifier/Accuracy : 33.6%
 
-I decided on a LinearRegression model and DecisionTreeClassifier. I forked my X_Matrix, and used the appropriate version of the y_target to train and fit each model.  After a little tuning our model produced some results...
+I decided on a Ridge Regression model and Decision Tree Classifier. I forked my X_Matrix, and used the appropriate version of the y_target to train and fit each model.  After a little tuning our model produced some results...
 
 **Validation results**
 
