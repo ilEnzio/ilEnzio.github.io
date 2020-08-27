@@ -34,7 +34,6 @@ As you can see, after a year I managed to convince her to start scheduling days 
 After engineering a few more features including - **Total_Earnings**(all combined revenue), and **Player Mode**(whether the games streamed were single player, multiplayer or both) - I decided to look at some basic linear correlations.
 
 
-**possible Total_Earning vs player_mode scatter plot**
 
 ![Absolute Value Correlation Matrix](https://ilenzio.github.io/assets/img/corr_Matrix_absolute_value_chart.png)
 
@@ -43,12 +42,12 @@ I had cause for hope when the plot revealed that **Chatters, Chat Messages, and 
 
 ### Stuck in the Middle with...Metrics
 
-Initially I determined that the raw data and target vector indicated a regression problem, after all I was trying to predict revenue - a continuous variable - for a stream session.  However after consideration I decided that presenting the solution as classification would be more palatable, and increase relevance for stake holders.  In other words, rather than return a number figure it might be better to return a result that could scale with the relative success of the streamer, indicating whether given conditions would result in an upper percentile revenue session = “worth the grind”, or a lower percentile revenue session = “not worth the grind.”  At any rate there was certainly nothing stopping me from training one of each type of model.  My Baseline metrics were as follows: 
+Initially I determined that the raw data and target vector indicated a regression task, after all I was trying to predict revenue - a continuous variable - for a stream session.  However, after consideration I decided that framing the solution as classification would be more palatable, and increase relevance for stake holders.  In other words, rather than return a number figure it might be better to return a result that could scale with the relative success of the streamer, indicating whether given conditions would result in an upper percentile revenue session = “worth the grind”, or a lower percentile revenue session = “not worth the grind.”  At any rate there was certainly nothing stopping me from training one of each type of model.  My Baseline metrics were as follows: 
 
-**Regression Baseline Metrics:
+**Regression Baseline Metrics:**
 MAE : $24.54
 
-**Classification Baseline Metrics:
+**Classification Baseline Metrics:**
 Majority Classifier/Accuracy : 33.6%
 
 I decided on a Ridge Regression model and Decision Tree Classifier. I forked my Feature Matrix, and used the appropriate version of the Target Vector to train and fit each model.  After a little tuning our model produced some results...
@@ -66,7 +65,7 @@ Besides the models performance  the most exciting part of the analysis was the i
 
 **shapley plots**
 
-By the way…So far our best model does ~18% better than the baseline at predicting whether or not a given date will be worth streaming and i really, really, really hope to improve it. 
+By the way…So far our best model does ~21% better than the baseline at predicting whether or not a given date will be worth streaming and i really, really, really hope to improve it. 
 
 
 ##### Links:
