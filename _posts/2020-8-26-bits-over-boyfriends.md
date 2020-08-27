@@ -51,14 +51,14 @@ MAE : $24.54
 **Classification Baseline Metrics:
 Majority Classifier/Accuracy : 33.6%
 
-I decided on a Ridge Regression model and Decision Tree Classifier. I forked my X_Matrix, and used the appropriate version of the y_target to train and fit each model.  After a little tuning our model produced some results...
+I decided on a Ridge Regression model and Decision Tree Classifier. I forked my Feature Matrix, and used the appropriate version of the Target Vector to train and fit each model.  After a little tuning our model produced some results...
 
 **Validation results**
 
 ![Streamer DecisionTreeClassifier Confusion Matrix](https://ilenzio.github.io/assets/img/twitch_tree_classifier_confusion_matrix_chart.png)
 
 ### What Machine Learning has Brought Together, Let No Stream Sunder!
-Both models beat our baseline, but what I really needed to get to the bottom of our Business Question was a look at the model’s permutation importances.   Was the ultimate path to Streamer success just about grinding for endless hours? Should could my gf justify increasing her Minutes Streamed over all else?
+Both models beat our baseline, but what I really needed to get to the bottom of our Business Question was a look at the model’s permutation importances.   Was the ultimate path to Streamer success just about grinding for endless hours? Could my girlfriend justify increasing her Minutes Streamed over all else?
 
 ![DecisionTreeClassifier Top10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top_ten_bar_chart.png)
 
