@@ -13,7 +13,7 @@ tags: [datascience, twitch, streaming, small_business, games, videogames]
 I have a gaming problem.  Not really.  But my girlfriend has a gaming problem , which makes it my problem.  It goes something like this:  My girlfriend is a Twitch affiliate - a part-time professional streamer, and to be sure life isn’t all fun and games when your partner is a for profit gamer.  For Twitch streamers, making ends meet takes the form of viewer subscriptions, tips, and donations - with significant ad revenue only afforded to the elite.   
 
 **Low performer Affilates vs Average Streamer vs Top Affilates/  Revenue/Followers vs StarKells**
-[Bar Chart Monthly Affiliate Wage Comparison](https://ilenzio.github.io/assets/img/bar_chart_twitch_affiliate_average_monthly_wage_comparison.png)
+![Bar Chart Monthly Affiliate Wage Comparison](https://ilenzio.github.io/assets/img/bar_chart_twitch_affiliate_average_monthly_wage_comparison.png)
 
 Since most streaming takes place in the evening, what that means for me is a conspicuous lack of quality time.  Thus the competing interests arise:  I want more quality time with my funny little honey,  while she is compelled to grind  - growing her stream and revenue is understandably high priority.  Conventional wisdom assumes having a successful stream takes dedication, passion, and lots of time. But is it worth the grind? Can data analysis and machine learning help us resolve the classic issue: How can we maximise Business Time without sacrificing Bidness time? 
 
