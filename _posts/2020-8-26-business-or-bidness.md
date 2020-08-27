@@ -58,11 +58,10 @@ I selected a LinearRegression model and DecisionTreeClassifier. I forked my X_Ma
 
 ![Streamer DecisionTreeClassifier Confusion Matrix](https://ilenzio.github.io/assets/img/twitch_tree_classifier_confusion_matrix_chart.png)
 
-### What Machine Learning has brought Together, Let no Stream Tear Asunder!
+### What Machine Learning has brought Together, Let No Stream Sunder!
 After a little tuning our model  produced some results, that beat our baseline, but what I really needed to get to the bottom of our Business Question was a look at the model’s permutation importances.  Was the ultimate path to Streamer success just about grinding for endless hours?  
 
-**permutation importance bar chart**
-![DecisionTreeClassifier Top 10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top_ten_bar_chart.png)
+![DecisionTreeClassifier Top10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top_ten_bar_chart.png)
 
 Besides the models performance  the most exciting part of the analysis was the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use used each feature in determining a particular prediction. 
 
