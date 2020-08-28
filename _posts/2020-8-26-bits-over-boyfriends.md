@@ -56,12 +56,12 @@ Both models beat our baseline, but what I really needed to get to the bottom of 
 
 ![DecisionTreeClassifier Top10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top15_bar_chart.png)
 
-Besides the model's performance the most exciting part of the analysis were the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use  each feature in determining a particular prediction. 
+Minutes Streamed did not even make the Top 15 in permutation importance!! (While four of my engineered features did!) Besides the model's performance, the most exciting part of the analysis were the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use each feature in determining a particular prediction. Here an example for one day:
 
 
 ![shapley plot example of def worth](https://ilenzio.github.io/assets/img/twitch_tree_classifier_shapley_top15_chart.png)
 
-By the way…So far our best model does ~17% better than the baseline at predicting whether or not a given date will be worth streaming and i really, really, really hope to improve it. 
+So according to our models, if you're seeking to maximise revenue, it's good to put in hours, but it's much more important to design your stream with chat engagement and participation in mind.  By the way…So far our best model does ~17% better than the baseline at predicting whether or not a given date will be worth streaming and i really, really, really hope to improve it. 
 
 ![model results table](https://ilenzio.github.io/assets/img/model_results_table.png)
 
