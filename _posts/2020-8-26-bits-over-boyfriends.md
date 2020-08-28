@@ -11,22 +11,22 @@ tags: [datascience, twitch, streaming, small_business, games, videogames]
 
 ### Don't Hate the Player...?
 
-I have a gaming problem.  Not really.  But my girlfriend has a gaming problem... Or does she...?  It breaks down like this:  My girlfriend is a Twitch affiliate - a part-time professional streamer - and to be sure life isn’t all fun and games when your partner is a for profit gamer.  In the Darwinian Live Streaming ecosystem making ends meet takes the form of viewer subscriptions, tips, and donations - with significant ad revenue only afforded to the elite.  She does way better than average as affliates go, but to really get ahead, my partner is seeking partnership status... from Twitch. The partner contract is where the really money is.   
+I have a gaming problem.  Not really.  But my girlfriend has a gaming problem... Or does she...?  It breaks down like this:  My girlfriend a part-time professional streamer - and to be sure life isn’t all fun and games when your partner is a for profit gamer.  It's about making ends meet through viewer subscriptions, tips, and donations - with significant ad revenue only afforded to the elite.  She does way better than average as affliates go, but to really get ahead, my partner is seeking partnership status... from Twitch. That's where the really money is.   
 
 
 ![Bar Chart Monthly Affiliate Wage Comparison](https://ilenzio.github.io/assets/img/bar_chart_twitch_affiliate_average_monthly_wage_comparison.png)
 
-Since most streaming takes place in the evening, what that means for me is a conspicuous lack of quality time.  Thus the competing interests arise:  I want more quality time with my funny little honey,  while she is compelled to grind  - determined to grow her stream and revenue.  Conventional wisdom assumes having a successful stream takes dedication, passion, and lots of time. But is it worth the grind? Can data analysis and machine learning help us resolve the classic issue: How can we maximise Business Time without sacrificing Bidness time? 
+Since most streaming takes place in the evening, what that means for me is a conspicuous lack of quality time.  Thus the competing interests arise:  I want more netflix and chill with my funny little honey,  while she is compelled to grind  - determined to grow her stream and revenue.  Conventional wisdom assumes having a successful stream takes dedication, passion, and lots of time. But is it worth the grind? Can data analysis and machine learning help us resolve the classic issue: How can we maximise Business Time without sacrificing _*Bidness time*_? 
 
 
 ### Build Me Up Buttercup
 
 I attacked the problem by sourcing data from 3 sites - her entire 3 year streaming career analytics directly from [Twitch.com](https://www.twitch.tv/), channel specific revenue data from [Stream Labs](https://streamlabs.com/), and selected game data from [Sullygnome.com](https://sullygnome.com/).   
-To understand the scope of the problem and gage what I was up against I immediately engineered two features.  Streak and Activity.  Streak represented how many consecutive days she streamed in order to build her audience.  
+To understand the scope of the problem I immediately engineered two features.  **Streak** and **Activity**.  Streak represented how many consecutive days she streamed in order to build her audience.  
 
 ![Streamer Streak Line Chart](https://ilenzio.github.io/assets/img/streak_line_chart.png)
 
-As you can see, after a year I managed to convince her to start scheduling days off.  Unfortunately I suspected that this might render the **Streak** feature less useful to a machine learning algorithm, so I engineered a feature called **Activity**, which represented the percentage of days, in the last 30 days, that she had streamed.  This would indicated if she had kept a consistent schedule within a 30 day period,without penalizing her for non-consecutive stream days. My hope was that the algorithm could determine any correlation between the consistency and revenue.  
+As you can see, after a year I managed to convince her to start scheduling days off.  Unfortunately I suspected that this might render the Streak feature less useful to a machine learning algorithm, so I engineered a feature called Activity, which represented the percentage of days, in the last 30 days, that she had streamed.  This would indicated if she had kept a consistent schedule within a 30 day period,without penalizing her for non-consecutive stream days. My hope was that the algorithm could determine any correlation between the consistency and revenue.  
 
 ![Streamer Activity Line Chart](https://ilenzio.github.io/assets/img/activity_line_chart.png)
 
