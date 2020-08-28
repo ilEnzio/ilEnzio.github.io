@@ -73,10 +73,10 @@ By the way…So far our best model does ~17% better than the baseline at predict
 
 [Colab Notebook link]
 
-[Project GitHub]
+[Project GitHub](https://github.com/ilEnzio/StarKells_Twitch_data)
 
 [Portfolio](https://ilenzio.github.io/)
 
-[Diamonds & Desire Boudoir Photography](https://www.diamondsanddesire.com/)
+[CreatorHype](https://creatorhype.com/truth-about-twitch-affiliate/)
 
-[ZipRecruiter Photographer Salary Reference](https://www.ziprecruiter.com/Salaries/How-Much-Does-a-Professional-Photographer-Make-an-Hour)
+[SullyGnome's Twitch Statistics](https://sullygnome.com/)
