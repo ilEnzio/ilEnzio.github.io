@@ -60,7 +60,7 @@ Besides the model's performance the most exciting part of the analysis were the 
 
 
 ![shapley plot example of def worth](https://ilenzio.github.io/assets/img/twitch_tree_classifier_shapley_top15_chart.png)
-
+test
 By the way…So far our best model does ~17% better than the baseline at predicting whether or not a given date will be worth streaming and i really, really, really hope to improve it. 
 
 ![model results table](https://ilenzio.github.io/assets/img/model_results_table.png)
