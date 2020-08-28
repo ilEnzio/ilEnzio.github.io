@@ -51,7 +51,7 @@ I decided on a Ridge Regression model and Decision Tree Classifier. I forked my 
 
 ![Streamer DecisionTreeClassifier Confusion Matrix](https://ilenzio.github.io/assets/img/twitch_tree_classifier_confusion_matrix_chart.png)
 
-### What Machine Learning has Brought Together, Let No Stream Sunder!
+### What Machine Learning has Brought Together...
 Both models beat our baseline, but what I really needed to get to the bottom of our Business Question was a look at the model’s permutation importances.   Was the ultimate path to Streamer success just about grinding for endless hours? Could my girlfriend justify increasing her Minutes Streamed over all else... or Nah?
 
 ![DecisionTreeClassifier Top10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top15_bar_chart.png)
