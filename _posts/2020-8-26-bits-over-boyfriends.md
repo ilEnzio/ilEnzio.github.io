@@ -51,8 +51,6 @@ Initially I determined that the raw data and target vector indicated a regressio
 
 I decided on a Ridge Regression model and Decision Tree Classifier. I forked my Feature Matrix, and used the appropriate version of the Target Vector to train and fit each model.  After a little tuning our model produced some results...
 
-**Validation results**
-
 ![Streamer DecisionTreeClassifier Confusion Matrix](https://ilenzio.github.io/assets/img/twitch_tree_classifier_confusion_matrix_chart.png)
 
 ### What Machine Learning has Brought Together, Let No Stream Sunder!
