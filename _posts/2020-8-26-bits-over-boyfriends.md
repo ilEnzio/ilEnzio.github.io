@@ -24,12 +24,10 @@ Since most streaming takes place in the evening, what that means for me is a con
 I attacked the problem by sourcing data from 3 sites - her entire 3 year streaming career analytics directly from [Twitch.com](https://www.twitch.tv/), channel specific revenue data from [Stream Labs](https://streamlabs.com/), and selected game data from [Sullygnome.com](https://sullygnome.com/).   
 To understand the scope of the problem and gage what I was up against I immediately engineered two features.  Streak and Activity.  Streak represented how many consecutive days she streamed in order to build her audience.  
 
-**streak line plot**
 ![Streamer Streak Line Chart](https://ilenzio.github.io/assets/img/streak_line_chart.png)
 
 As you can see, after a year I managed to convince her to start scheduling days off.  Unfortunately I suspected that this might render the **Streak** feature less useful to a machine learning algorithm, so I engineered a feature called **Activity**, which represented the percentage of days, in the last 30 days, that she had streamed.  This would indicated if she had kept a consistent schedule within a 30 day period,without penalizing her for non-consecutive stream days. My hope was that the algorithm could determine any correlation between the consistency and revenue.  
 
-**activity line plot**
 ![Streamer Activity Line Chart](https://ilenzio.github.io/assets/img/activity_line_chart.png)
 
 After engineering a few more features including - **Total_Earnings**(all combined revenue), and **Player Mode**(whether the games streamed were single player, multiplayer or both) - I decided to look at some basic linear correlations.
