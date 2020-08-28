@@ -60,7 +60,7 @@ Both models beat our baseline, but what I really needed to get to the bottom of 
 
 ![DecisionTreeClassifier Top10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top_ten_bar_chart.png)
 
-Besides the models performance the most exciting part of the analysis was the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use  each feature in determining a particular prediction. 
+Besides the model's performance the most exciting part of the analysis were the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use  each feature in determining a particular prediction. 
 
 
 ![shapley plot example of def worth](https://ilenzio.github.io/assets/img/twitch_tree_classifier_shapley_top15_chart.png)
