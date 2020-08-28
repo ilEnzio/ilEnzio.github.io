@@ -47,7 +47,7 @@ Initially I determined that the raw data and target vector indicated a regressio
 ![Baseline Metrics Table](https://ilenzio.github.io/assets/img/baseline_metrics_table.png)
 
 
-I decided on a Ridge Regression model and Decision Tree Classifier. I forked my Feature Matrix, and used the appropriate version of the Target Vector to train and fit each model.  After a little tuning our model produced some results...
+I decided on a **Ridge Regression** model and **Decision Tree Classifier**. I forked my Feature Matrix, and used the appropriate version of the Target Vector to train and fit each model.  After a little tuning our model produced some results...
 
 ![Streamer DecisionTreeClassifier Confusion Matrix](https://ilenzio.github.io/assets/img/twitch_tree_classifier_confusion_matrix_chart.png)
 
