@@ -67,7 +67,7 @@ So according to our models, if you're seeking to maximise revenue, it's good to 
 
 ##### Links:
 
-[Colab Notebook link]
+[Colab Notebook link](https://github.com/ilEnzio/StarKells_Twitch_data/blob/master/ERLE_GRANGERII_DS18_UNIT02_Build_Bit_Over_Boyfriends_Final.ipynb)
 
 [Project GitHub](https://github.com/ilEnzio/StarKells_Twitch_data)
 
