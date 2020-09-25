@@ -56,7 +56,7 @@ Both models beat our baseline, but what I really needed to get to the bottom of 
 
 ![DecisionTreeClassifier Top10 Permutation Importance](https://ilenzio.github.io/assets/img/twitch_tree_classifier_permutation_importance_top15_bar_chart.png)
 
-Minutes Streamed did not even make the Top 15 in permutation importance!! (While four of my engineered features did!) Besides the model's performance, the most exciting part of the analysis were the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use each feature in determining a particular prediction. Here an example for one day:
+Minutes Streamed did not even make the Top 15 in permutation importance!! (While four of my engineered features did!) Besides the model's performance, the most exciting part of the analysis were the insights gained by taking a look at the shapley plots.  This gives a glimpse into how the model might use each feature in determining a particular prediction. Here is an example for one day:
 
 
 ![shapley plot example of def worth](https://ilenzio.github.io/assets/img/twitch_tree_classifier_shapley_top15_chart.png)
