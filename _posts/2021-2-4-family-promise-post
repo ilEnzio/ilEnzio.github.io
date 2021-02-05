@@ -11,13 +11,10 @@ tags: [datascience, family_promise, spokane, homeless, shelter, dashboard]
 
 ### Project Background
 
-They are a homeless shelter that’s primary mission is to serve families in the local community.  
-The roadmap for the project included converting a 30 page, paper and pencil intake form to a digital process, 
-improving an existing machine learning predictive exit outcome model, and creating two sets of visualizations - 
-charts that would help non-technical caseworkers assess current and historical guest enrollment, and charts for model interpretation. 
-	As the member of the DS team tasked with creating descriptive statistics for the caseworkers the biggest concern 
-  I had was acquiring enough domain expertise to understand what stats to surface for the caseworkers, 
-  and how they might want to filter the results to create more meaningful, yet easy to understand visualizations.  
+Family Promise of Spokane is a homeless shelter that’s primary mission is to serve families in the local community.  The roadmap for the project included converting a 30 page, paper and pencil intake form to a digital process, improving an existing machine learning predictive exit outcome model, and creating two sets of visualizations - charts that would help non-technical caseworkers assess current and historical guest enrollment, and charts for model interpretation. 
+	As the member of the DS team tasked with creating descriptive statistics for the caseworkers the biggest concern I had was acquiring enough domain expertise to understand what stats to surface for the caseworkers, and how they might want to filter the results to create more meaningful, yet easy to understand visualizations.  
+
+![FP Site Snippet]
 
 
 
