@@ -14,16 +14,14 @@ tags: [datascience, family_promise, spokane, homeless, shelter, dashboard]
 Family Promise of Spokane is a homeless shelter that’s primary mission is to serve families in the local community.  The roadmap for the project included converting a 30 page, paper and pencil intake form to a digital process, improving an existing machine learning predictive exit outcome model, and creating two sets of visualizations - charts that would help non-technical caseworkers assess current and historical guest enrollment, and charts for model interpretation. 
 	As the member of the DS team tasked with creating descriptive statistics for the caseworkers the biggest concern I had was acquiring enough domain expertise to understand what stats to surface for the caseworkers, and how they might want to filter the results to create more meaningful, yet easy to understand visualizations.  
 
-![FP Site Snippet]
-(https://github.com/ilEnzio/ilEnzio.github.io/blob/master/assets/img/FamilyPSiteSnippet.png)
+![FP Site Snippet](https://github.com/ilEnzio/ilEnzio.github.io/blob/master/assets/img/FamilyPSiteSnippet.png)
 
 One of the technical challenges that we had to overcome involved the dashboard framework we choose to use in order to display visualizations - Streamlit.  The original design of Streamlit assumes a very simple single page style interface, however we needed to marry two distinct use cases into one tool with as little clutter as possible.  
 	Indeed we started with two separate “tools.”  The tool I built and was responsible for was a Descriptive Analytics Visualization dashboard.   The initial visualization I prototyped began as a univariate view of the distribution of  the guest enrollment population by current age.  I included an interactive legend which allowed the user to filter by gender - making the graph essentially bivariate.  I also included the ability to further filter the enrollment population by date range. 
 	The initial demo of the tool was well received by the stakeholder who gave immediate feedback.  He requested that the user be able to compare portions of the population defined by their exit outcome, such as: permanent exit, non-permanent exit, unknown exit.  Further the stakeholder wanted to be able to compare those “facets” of the enrollment population by relevant variables such as “Bed Nights Enrolled”.  
 	Thanks to the choice of framework, I was able to iterate and deliver a prototype of the functionality requested.  However the more intricate the visualizations became the more I felt the user may need to have an additional summary in order to be able to parse the information.  So I decided to create a summary table that indicated central tendencies for the comparison variables of each population facet.  For instance for a given date range the summary would provide the user with mean values of the relevant features according to a machine learning predictive model.  The user could choose which variable to graph and compare across each population facet.
 	
-![Main Dashboard Viz]
-(https://github.com/ilEnzio/ilEnzio.github.io/blob/master/assets/img/FPMainViz.png)
+![Main Dashboard Viz](https://github.com/ilEnzio/ilEnzio.github.io/blob/master/assets/img/FPMainViz.png)
 
 The Data Science implementation of the product currently consists of an internal client tool with two main components: a Descriptive Statistics dashboard, and a Machine Learning Model Prediction dashboard.  
 	The Descriptive Statistics features an interactive chart displaying enrollment distribution.  The main chart can be filtered by date range via sliders.  The user can also choose to view the entire population distribution, Heads of Households, or Dependents. 
