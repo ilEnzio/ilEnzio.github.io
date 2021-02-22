@@ -10,31 +10,30 @@ tags: [datascience, photography, boudoir, small_business, jacksonville, florida]
 ---
 
 ### A Saucy data source
-With the rise of social media and cell-phones it’s safe to say anyone can consider themselves an accomplished amateur photographer.  But while the hobbyist can point and shoot indiscriminately, in order to earn a living creating images, the professional must be discerning about what they capture - and thus the various genres of professional photography arise.  
 
-Parsing the topic even further, if your metric is gross income, all photographic genres are not created equal. Which brings us to the subject of our exploration - a relatively obscure but potentially lucrative niche genre of photography, called Intimate Portraiture, or more commonly known as Boudoir Photography.   If photography studios were restaurant’s, think of the boudoir photo studio as the equivalent of a restaurant that only serves lunch or breakfast…in bed.  
-
-For this project I was able to source data from the most successful boudoir photography studio in Northeast Florida - a little mom-and-pop shop called [Diamonds and Desire Boudoir Photography](https://www.diamondsanddesire.com/). To put the success of this two person operation in context, the nation wide average hourly wage for professional photography according to ZipRecruiter as of July 20, 2020 was **$21/hour**, while the average for northeast florida was **$19/hour**.  However D&D Photography averages **_$82/man-hour_**.  
-  
+For this project I was able to source data from the most successful boudoir photography studio in Northeast Florida - a little mom-and-pop shop called [Diamonds and Desire Boudoir Photography](https://www.diamondsanddesire.com/).  Put in context, the nation wide average hourly wage for professional photography according to ZipRecruiter as of July 20, 2020 was **$21/hour**, while the average for northeast florida was **$19/hour**. However D&D Photography averages **_$82/man-hour_**.
 
 ![Chart comparing photog average hourly wage](https://ilenzio.github.io/assets/img/bar_chart_average_hourly_wage_comparison.png)
 
+For the secret to their success - a bit of set up:  A photography student once asked me what the distinction was between an amateur and a “pro”?  I countered: “You, of course mean ‘What’s the most important distinction?’ ” Skill Level?  No.  Certainly not the equipment or tools they use.  Indeed, the most important and useful distinction is a hobbyist can aim and shoot indiscriminately, but in order to earn a living creating images, the professional must be discerning about what they capture.  Where you point the camera is paramont - thus the various genres of professional photography arise.  And monetarily all photographic genres are not created equal. 
 
-Since the data set essentially represented concrete sales data totaling a little less than a quarter of a million dollars over a 6 year period, it’s appropriate that the project goal be equally concrete:  Give three data centric, actionable insights, parallelling the specific business model of Diamonds and Desire.  That business model anatomy consisted of: Pre-shoot Consultation(Booking the client), Photoshoot (executing the service),  and Sales Sessions.
+Our analysis concerns a relatively obscure but lucrative niche genre called Intimate Portraiture, or  Boudoir Photography. If photography studios were restaurant’s, think of the boudoir photo studio as the equivalent of a restaurant that only serves lunch or breakfast…in bed.
+
+Since the data set  represented concrete sales data totaling a little less than a quarter of a million dollars, the project goal was equally concrete: Give three data centric, actionable insights, parallelling the specific business model of Diamonds and Desire. That business model consisted of: Pre-shoot Consultation(Booking the client), Photoshoot (executing the service), and Sales Sessions.
 
 ### Data left forlorn...  
-Let’s begin with insight relevant to the **Preshoot Consultation** as this grants further context into the business domain in general. The data for the project was compiled from records of the consultations and records of sales. So while it does include features like booking date, date of birth, zip code, session fee, and sales total, etc. There were other variables that were almost always revealed due to the nature of the consultation, but not recorded with the proper nuance or consistency: Occasion of shoot( anniversary, birthday, father’s day, valentine’s day, x-mas, or perhaps no occasion!). Being located in a navy town, many of the clients were in the military, or military spouses, but this was not consistently recorded. Ethnicity and gender were also not recorded with enough nuance to be useful.  
 
-* **Type of Photograph Purchased** (Color vs BW, Close-up vs Wide, Hi vs Low Key)
+The data for the project was compiled from records of the **Preshoot Consultation** and records of sales. So while it does include features like booking date, date of birth, zip code, session fee, and sales total, etc. There were other variables that were almost always revealed due to the nature of the consultation, but not recorded with the proper nuance or consistency: Occasion of shoot( anniversary, birthday, father’s day, valentine’s day, x-mas, or perhaps no occasion!). Being located in a navy town, many of the clients were in the military, or military spouses, but this was not consistently recorded. Ethnicity and gender were also not recorded with enough nuance to be useful.  
+
+From the sales information, the sales total and product quantity/type was documented, but the type of photograph was not categorized in the sales data with enough nuance. Were the photographs close up, wide shots, black and white, color, high key, or low key? These are all metrics which could affect the business’s marketing decision and perhaps shooting practices. And once again this is data that was made available, but just not suitably recorded. Therefore I would recommend adding these to the variables recorded going forward.
+
+ * **Type of Photograph Purchased** (Color vs BW, Close-up vs Wide, Hi vs Low Key)
 * **Occassion of shoot** (None, Anniversary, V-day, X-mas, etc)  
 * **Gender** (w/ suitable nuance)
 * **Ethnicity** (w/ suitable nuance)
 
-From the sales information, the sales total and product quantity/type was documented, but the type of photograph was not categorized in the sales data with enough nuance. Were the photographs close up, wide shots, black and white, color, high key, or low key? These are all metrics which could affect the business's marketing decision and perhaps shooting practices. And once again this is data that was collected and available, but just not suitably recorded. Therefore I would recommend adding these to the variables recorded going forward.
- 
-
 ### "Hmm! I like my …” - anonymous client
-Insight 2 - Regarding the actual photoshoot there was one feature extremely relevant to service execution and the general success of the business. The **“Favorite”** variable was defined as which body part the client was most interested in highlighting or having exceptional photographs of.  So it follows that the Favorite feature revealed what most clients expect a boudoir photographer to be good at shooting. Thus, while a family photographer would be expected to deliver solid group shots - relying on skill at herding and staging people, a succesful wedding photographer might develop skill at recognizing or staging beautiful moments, and a headshot specialist might gather an arsenal of corny jokes. But in boudoir photography, the data shows, that among clients that have a preference, the expectation by an almost two to one margin is for exceptional shots of… the booty.
+Insight 2 - Regarding the actual photoshoot there was one feature extremely relevant to service execution and the general success of the business. The **“Favorite”** variable was defined as which body part the client was most interested in highlighting or having exceptional photographs of. So it follows that the Favorite feature revealed what most clients expect a boudoir photographer to be good at shooting. While a family photographer would be expected to deliver solid group shots - relying on skill at herding and staging people, a succesful wedding photographer might develop skill at recognizing or staging beautiful moments, and a headshot specialist might gather an arsenal of corny jokes.  But in boudoir photography, the data shows, that among clients that have a preference, the expectation by an almost two to one margin is for exceptional shots of… the booty.
 
 ![Chart of Favorite values counts](https://ilenzio.github.io/assets/img/bar_chart_top_ten_favorites.png)
 
@@ -60,7 +59,7 @@ Surprisingly, when compared to each other the average sales total for a client w
 
 ![Chart of Make-up only vs Hair and Make-up expectation value](https://ilenzio.github.io/assets/img/ev_sales_mu_v_hair.png)
 
-But the most starling consequence of this discovery was yet to come. Ironically, the photographer works fewer hours to service a client that gets more services.  Hairstyling takes up approximately 1hr of the shoot and results in less photos to process, increasing the expected value of the shoot by $35/hour! \*
+But the most startling consequence of this discovery was yet to come. Ironically, the photographer works fewer hours to service a client that gets more services.  Hairstyling takes up approximately 1hr of the shoot and results in less photos to process, increasing the expected value of the shoot by $35/hour! \*
 
 
 ### Boudoir Bottom Line:
