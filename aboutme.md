@@ -8,7 +8,6 @@ Hi! Erle, here!
 Things I like to discuss passionately are:
 
 - Films
-- Politics
 - Poker
 - Game Design
 
