@@ -11,7 +11,7 @@ tags: [datascience, twitch, streaming, small_business, games, videogames]
 
 ### Don't Hate the Player...?
 
-I have a gaming problem.  Not really.  But my girlfriend has a gaming problem... Or does she...?  It breaks down like this:  My girlfriend is a part-time professional streamer - and to be sure life isn’t all fun and games when your partner is a for profit gamer.  It's about making ends meet through viewer subscriptions, tips, and donations - with significant ad revenue only afforded to the elite.  She does way better than average as affliates go, but to really get ahead, my partner is seeking partnership status... from Twitch. That's where the really money is.   
+I have a gaming problem.  Well, my girlfriend has a gaming problem... Or does she...?  It breaks down like this:  My girlfriend is a part-time professional streamer - and  life isn’t all fun and games when your partner is a for profit gamer.  It's about making ends meet through viewer subscriptions, tips, and donations - with significant ad revenue only afforded to the elite.  She does way better than average as affliates go, but to really get ahead, my partner is seeking **partnership** status... from Twitch. That's where the really money is.   
 
 
 ![Bar Chart Monthly Affiliate Wage Comparison](https://ilenzio.github.io/assets/img/bar_chart_twitch_affiliate_average_monthly_wage_comparison.png)
