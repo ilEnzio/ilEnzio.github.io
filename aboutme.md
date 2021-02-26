@@ -8,8 +8,8 @@ Hi! Erle, here!
 Things I like to discuss passionately are:
 
 - Films
-- Poker
-- Game Design
+- Poker theory
+- Game Design theory
 
 What else do you need?
 
